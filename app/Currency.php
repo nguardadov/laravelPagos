@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Currency extends Model
 {
     protected $primaryKey= 'iso';
-    protected $incrementing = false;
+    public $incrementing = false;
 
     protected $fillable = [
         'iso'
